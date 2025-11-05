@@ -811,10 +811,22 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <!-- lln file -->
+    <script>
+fetch("site.lln")
+  .then(response => response.text())
+  .then(str => (new window.DOMParser()).parseFromString(str, "text/xml"))
+  .then(data => {
+    const title = data.getElementsByTagName("title")[0].textContent;
+    document.title = title; // update website title automatically
+  });
+</script>
+    <!--lln file end  -->
 </body>
 
 
 </html>
+
 
 
 
