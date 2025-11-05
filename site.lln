@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Rajasthan Stone Articles Site Config -->
+<siteConfig>
+
+  <siteInfo>
+    <title>Rajasthan Stone Articles</title>
+    <owner>Deepak Bhai</owner>
+    <location>Sikandra, Rajasthan (India)</location>
+    <contact>+91-xxxxxxxxxx</contact>
+    <email>rajasthanstonearticles@gmail.com</email>
+    <website>https://rajasthanstonearticles.com</website>
+  </siteInfo>
+
+  <business>
+    <category>Stone Manufacturing & Handcrafted Designing</category>
+    <experience>5+ Years</experience>
+    <productFocus>Stone Fountain, Marble Statues, Stone Garden Decorand buddha statues</productFocus>
+  </business>
+
+  <meta>
+    <canonical>https://rajasthanstonearticles.com/</canonical>
+    <publisher>Rajasthan Stone Articles</publisher>
+    <language>hi-IN</language>
+  </meta>
+
+  <api>
+    <enabled>true</enabled>
+    <baseURL>https://api.rajasthanstonearticles.com</baseURL>
+  </api>
+
+</siteConfig>
